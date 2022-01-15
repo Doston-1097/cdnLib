@@ -1,0 +1,28 @@
+body {
+  background: #2e3c50; }
+  body .container .row .input {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px inset;
+    border-radius: 6px 0 0 6px; }
+    body .container .row .input:focus {
+      box-shadow: none; }
+  body .container .row .btn-search {
+    border-radius: 0 6px 6px 0; }
+  body .container .row .btn-check:focus + .btn-primary, body .container .row .btn-primary:focus {
+    box-shadow: none; }
+  body .container .row .card {
+    background: #48626c;
+    min-height: 150px;
+    padding: 20px 40px;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); }
+    body .container .row .card .card-footer {
+      background-color: #2e3c50;
+      height: 100%; }
+    body .container .row .card .point {
+      cursor: pointer; }
+    body .container .row .card span {
+      font-size: 22px;
+      font-weight: bold;
+      color: #c9ea72; }
+
+/*# sourceMappingURL=index.css.map */
